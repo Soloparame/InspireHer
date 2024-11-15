@@ -4,7 +4,7 @@ let roleModels = [];
 let interestScores = {}; // Store interest scores to simulate AI behavior
 
 // Fetch role models data from JSON file
-fetch('https://raw.githubusercontent.com/Soloparame/InspireHer/main/assets/data/role_models.json')
+fetch('https://raw.githubusercontent.com/Soloparame/InspireHer/master/assets/data/role_models.json')
     .then(response => response.json())
     .then(data => roleModels = data)
     .catch(error => console.error('Error loading data:', error));
