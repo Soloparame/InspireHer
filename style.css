@@ -16,19 +16,6 @@ button:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
 }
-
-/* Cards and Button Styles
-.role-model-card {
-    background: rgb(33, 127, 221);
-    padding: 1px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.role-model-card:hover {
-    transform: scale(1.05);
-} */
 /* Add hover effects for links */
 a:hover {
     color: #4caf50;
